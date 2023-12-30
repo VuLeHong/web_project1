@@ -1,0 +1,82 @@
+.payment-container {
+      font-family: Poppins;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh; /* Adjusted to min-height for better responsiveness */
+      background-color: #f4f4f4;
+      flex-direction: column;
+  }
+  
+  .payment-address-container {
+      display: flex;
+      width: 100%; /* Make it full-width on smaller screens */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+  }
+  
+  .payment-form,
+  .address-form {
+      flex: 1;
+      padding: 20px;
+      background-color: #fff;
+  }
+  
+  .payment-form h2,
+  .address-form h2 {
+      color: #333;
+  }
+  
+  .payment-form form,
+  .address-form form {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .payment-form label,
+  .address-form label {
+      margin-bottom: 8px;
+  }
+  
+  .payment-form input,
+  .address-form input,
+  .payment-form textarea,
+  .address-form textarea,
+  button {
+      padding: 10px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+  }
+  
+  button {
+      padding: 12px;
+      background-color: #ef4141;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+  
+  .address-form textarea {
+      height: 80px;
+  }
+  
+  /* Responsive styles for smaller screens (max-width: 768px) */
+  @media (max-width: 768px) {
+      .payment-container {
+          padding: 20px; /* Adjust padding for better spacing on smaller screens */
+      }
+  
+      .payment-address-container {
+          flex-direction: column; /* Stack items vertically on smaller screens */
+      }
+  
+      .payment-form,
+      .address-form {
+          width: 100%; /* Make forms full-width on smaller screens */
+          margin-bottom: 20px; /* Adjust margin for better spacing on smaller screens */
+      }
+  }

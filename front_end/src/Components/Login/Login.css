@@ -1,0 +1,140 @@
+/* .loginsignup{
+    width: 100%;
+    height: 80vh;
+    background: #fce3fe;
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+.loginsignup-container{
+    width: 580px;
+    height: 600px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+.loginsignup-container h1{
+    margin: 20px 0px;
+}
+.loginsignup-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+.loginsignup-fields input{
+    height: 72px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 14px;
+}
+.loginsignup-container button{
+    width: 580px;
+    height: 72px;
+    color: white;
+    background: #ff4141;
+    margin-top: 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.loginsignup-login{
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 14px;
+    font-weight: 500;
+}
+.loginsignup-login span{
+    color: #ff4141;
+    font-weight: 600;
+}
+.loginsignup-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: #5c5c5c;
+    font-size: 14px;
+    font-weight: 500;
+} */
+.loginsignup {
+    width: 100%;
+    height: auto; /* Adjust height for responsiveness */
+    background: #fce3fe;
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+
+.loginsignup-container {
+    width: 100%; /* Make the container full-width on smaller screens */
+    max-width: 580px;
+    background: white;
+    margin: auto;
+    padding: 20px 30px; /* Adjust padding for better spacing on smaller screens */
+}
+
+.loginsignup-container h1 {
+    margin: 20px 0px;
+}
+
+.loginsignup-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adjust gap for better spacing on smaller screens */
+    margin-top: 15px; /* Adjust margin-top for better spacing on smaller screens */
+}
+
+.loginsignup-fields input {
+    height: 50px; /* Adjust input height for better spacing on smaller screens */
+    width: 100%;
+    padding-left: 15px; /* Adjust padding for better spacing on smaller screens */
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 14px;
+}
+
+.loginsignup-container button {
+    width: 100%; /* Make the button full-width on smaller screens */
+    height: 50px; /* Adjust button height for better spacing on smaller screens */
+    color: white;
+    background: #ff4141;
+    margin-top: 20px; /* Adjust margin-top for better spacing on smaller screens */
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginsignup-login {
+    margin-top: 15px; /* Adjust margin-top for better spacing on smaller screens */
+    color: #5c5c5c;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.loginsignup-login span {
+    color: #ff4141;
+    font-weight: 600;
+}
+
+.loginsignup-agree {
+    display: flex;
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center;
+    margin-top: 15px; /* Adjust margin-top for better spacing on smaller screens */
+    color: #5c5c5c;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Responsive styles for smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .loginsignup-container {/* Adjust padding for better spacing on smaller screens */
+        margin-right: auto;
+        width: auto;
+    }
+}
